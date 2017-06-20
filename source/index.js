@@ -12,7 +12,7 @@ console.log("index");
 
 angular.module("client", [uiRouter])
     .config(function($stateProvider, $urlRouterProvider) {
-        //$urlRouterProvider.otherwise('/catalog');
+        $urlRouterProvider.otherwise('/menu');
         $stateProvider
             .state("menu", {
                 url: '/menu',
